@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="assets/css/materialicons.css" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="materialize.min.css"/>
+    <!--Import style.css -->
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<div id="content">
+	    <div class="slider fullscreen" style="z-index:-1; touch-action: pan-y; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+	        <ul class="slides">
+	          <li>
+	            <img style="background-color: #42A3F3"> <!-- random image -->
+	            <div class="caption center-align">
+	              <h1>POINT OF SALES</h1>
+	              <h5 class="light grey-text text-lighten-3">Copyright &copy; Ariananta | 2016</h5>
+	            </div>
+	          </li>
+	          <li>
+	            <img style="background-color: #006064"> <!-- random image -->
+	            <div class="caption left-align">
+	              <h3>Pemrograman Web I</h3>
+	              <h5 class="light grey-text text-lighten-3">Politeknik Negeri Bali | 2016</h5>
+	            </div>
+	          </li>
+	          <li>
+	            <img style="background-color: #5E34AF"> <!-- random image -->
+	            <div class="caption right-align">
+	              <h3>Program ini bukan sungguhan</h3>
+	              <h5 class="light grey-text text-lighten-3">Sebuah proyek untuk memenuhi tugas akhir semester saja</h5>
+	            </div>
+	          </li>
+	        </ul>
+	    </div>
+	      <!-- END OF CONTENT -->
+	</div>
+</body>
+<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="materialize.min.js"></script>
+<script type="text/javascript" src="style.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.slider').slider({full_width: true});
+  });
+</script>
+</html>
